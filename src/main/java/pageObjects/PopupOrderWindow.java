@@ -25,5 +25,4 @@ public class PopupOrderWindow {
         driver.findElement(orderWindowSuccess).isDisplayed();
         return new PopupOrderSuccessWindow(driver);
     }
-
 }

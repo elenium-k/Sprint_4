@@ -19,8 +19,6 @@ public class FirstOrderPage {
     private final By nextButton = By.xpath("//*[contains(text(), 'Далее')]");
 
 
-
-
     private WebDriver driver;
 
     public FirstOrderPage (WebDriver driver) {

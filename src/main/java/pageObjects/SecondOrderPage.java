@@ -15,8 +15,6 @@ public class SecondOrderPage {
     private final By upperOrderButton = By.cssSelector("[class='Button_Button__ra12g']");
 
 
-
-
     private WebDriver driver;
 
     public SecondOrderPage (WebDriver driver) {

@@ -19,7 +19,6 @@ public class ParameterizedQuestionsTest {
     private WebDriver driver;
     private MainPage mainPage;
 
-
     private By questionLocator;
     private By answerLocator;
 

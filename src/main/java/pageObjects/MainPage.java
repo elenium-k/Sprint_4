@@ -28,7 +28,6 @@ public class MainPage {
     private final static By bringMeScooterQuestion = By.cssSelector("[id='accordion__heading-7']");
     private final static By bringMeScooterAnswer = By.xpath("//p[contains(text(), 'Да, обязательно. Всем самокатов! И Москве, и Московской области.')]");
 
-
     private WebDriver driver;
 
     public MainPage(WebDriver driver) {
