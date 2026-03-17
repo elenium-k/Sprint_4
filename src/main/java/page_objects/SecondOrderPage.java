@@ -1,4 +1,4 @@
-package pageObjects;
+package page_objects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +17,7 @@ public class SecondOrderPage {
 
     private WebDriver driver;
 
-    public SecondOrderPage (WebDriver driver) {
+    public SecondOrderPage(WebDriver driver) {
         this.driver = driver;
     }
 

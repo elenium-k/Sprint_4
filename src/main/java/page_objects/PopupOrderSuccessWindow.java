@@ -1,4 +1,4 @@
-package pageObjects;
+package page_objects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ public class PopupOrderSuccessWindow {
 
     private WebDriver driver;
 
-    public PopupOrderSuccessWindow (WebDriver driver) {
+    public PopupOrderSuccessWindow(WebDriver driver) {
         this.driver = driver;
     }
 

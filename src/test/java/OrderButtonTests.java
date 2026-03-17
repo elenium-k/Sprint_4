@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pageObjects.*;
+import page_objects.*;
 import java.time.Duration;
 import static org.junit.Assert.assertTrue;
 

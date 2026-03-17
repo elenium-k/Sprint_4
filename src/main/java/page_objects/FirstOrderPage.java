@@ -1,4 +1,4 @@
-package pageObjects;
+package page_objects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -17,16 +17,17 @@ public class FirstOrderPage {
     private final By phoneField = By.cssSelector("[placeholder='* Телефон: на него позвонит курьер']");
     private final By cookiesButton = By.cssSelector("[class='App_CookieButton__3cvqF']");
     private final By nextButton = By.xpath("//*[contains(text(), 'Далее')]");
+    private final By orderContentPage = By.cssSelector("[class='Order_Content__bmtHS']");
 
 
     private WebDriver driver;
 
-    public FirstOrderPage (WebDriver driver) {
+    public FirstOrderPage(WebDriver driver) {
         this.driver = driver;
     }
 
     public boolean isOrderContentDisplayed() {
-        driver.findElement(By.cssSelector("[class='Order_Content__bmtHS']")).isDisplayed();
+        driver.findElement(orderContentPage).isDisplayed();
         return true;
     }
 
